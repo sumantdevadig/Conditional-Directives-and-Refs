@@ -1,0 +1,6 @@
+<apex:page controller="MyCollege" >
+  <apex:form >
+     <apex:inputText value="{!MyCollege.name}"/>
+  </apex:form>
+
+</apex:page>

@@ -1,0 +1,10 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction" access="global" >
+    <aura:attribute name="accRecord" type="Account"/>
+    <force:recordData aura:id="recordLoader"
+                      recordId="0015h00001VRx6ZAAT"
+                      fields="Name,Description,Phone,Industry"
+                      targetFields="{!v.accRecord}"
+                      />
+    Name : {!v.accRecord.Name} <br/>
+    Description : {!v.accRecord.Description}
+</aura:component>

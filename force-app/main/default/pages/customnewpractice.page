@@ -1,0 +1,8 @@
+<apex:page Controller="MyParent">
+   <apex:form >
+    Welcome to visulforce page development {!$User.FirstName} <br></br>
+   <apex:inputText value="{!MyParent.name}"/>
+      
+      
+   </apex:form>
+</apex:page>

@@ -1,0 +1,13 @@
+<apex:page showHeader="false" controller="MyClass">
+
+     <apex:form >
+     <apex:image url="{!$Resource.myresource}" />
+     Welcome in the custom visualforce development : {!$User.FirstName} <br></br>
+     
+     <apex:inputtext value="{!MyClass.name}"/>
+     
+     <apex:commandButton value="{!$Label.Save}" action="{!doSave}"/>
+     
+     </apex:form>
+        
+</apex:page>

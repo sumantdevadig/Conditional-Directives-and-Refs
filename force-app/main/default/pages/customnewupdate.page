@@ -1,0 +1,10 @@
+<apex:page controller="MyUpdate" >
+   <apex:form >
+   
+       Welcome to salesforce classic development {!$User.FirstName} <br></br>
+      <apex:inputText value="{!MyUpdate.name}"/>
+      <apex:commandButton value="Do Save" action="{!doSave}"/>
+   
+   </apex:form>
+  
+</apex:page>

@@ -1,0 +1,8 @@
+<apex:page controller="UpdateContact" >
+  <apex:form >
+     Welcome to our lobby : {!$User.FirstName}
+    <apex:inputText value="{!UpdateContact.name}"/>
+    <apex:commandButton value="Save" action="{!doSave}"/>
+  </apex:form>
+
+</apex:page>
